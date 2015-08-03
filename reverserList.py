@@ -18,6 +18,18 @@ l3.next = l4
 l4.next = l5
 l5.next = l6
 
+def reverseListIter(head):
+    newList = None
+    tmp = head.next
+    cur = head
+    while cur != None:
+        cur.next = newList
+        newList = cur
+        cur = tmp
+        if tmp != None:
+            tmp = tmp.next
+    return newList
+
 def reverseList(head):
     if head.next  == None:
         return head
@@ -25,13 +37,11 @@ def reverseList(head):
     prev = reverseList(head.next)
     head.next = None
     prev.next = head
-
     return head
 
-reverseList(l1)
+t = reverseList(l1)
 
-tmp = l6
-
+tmp = t
 while tmp != None:
     print tmp.val
     tmp = tmp.next
