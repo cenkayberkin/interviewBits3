@@ -20,18 +20,7 @@
     <favorites_list name="interviewBits3" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="cycle.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cycle.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.69719625">
-              <caret line="38" column="17" selection-start-line="37" selection-start-column="7" selection-end-line="38" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -56,6 +45,8 @@
         <option value="$PROJECT_DIR$/insertionSort.py" />
         <option value="$PROJECT_DIR$/reverseList2.py" />
         <option value="$PROJECT_DIR$/cycle.py" />
+        <option value="$PROJECT_DIR$/paranthesis.py" />
+        <option value="$PROJECT_DIR$/reverseString.py" />
       </list>
     </option>
   </component>
@@ -118,41 +109,7 @@
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
   </component>
-  <component name="RunManager" selected="Python.cycle">
-    <configuration default="false" name="mergeLists" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="interviewBits3" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mergeLists.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="swapPairs" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="interviewBits3" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swapPairs.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.reverseString">
     <configuration default="false" name="insertionSort" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -200,6 +157,40 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="interviewBits3" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cycle.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="paranthesis" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="interviewBits3" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/paranthesis.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="reverseString" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="interviewBits3" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/reverseString.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -327,19 +318,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.mergeLists" />
-      <item index="1" class="java.lang.String" itemvalue="Python.swapPairs" />
-      <item index="2" class="java.lang.String" itemvalue="Python.insertionSort" />
-      <item index="3" class="java.lang.String" itemvalue="Python.reverseList2" />
-      <item index="4" class="java.lang.String" itemvalue="Python.cycle" />
+      <item index="0" class="java.lang.String" itemvalue="Python.insertionSort" />
+      <item index="1" class="java.lang.String" itemvalue="Python.reverseList2" />
+      <item index="2" class="java.lang.String" itemvalue="Python.cycle" />
+      <item index="3" class="java.lang.String" itemvalue="Python.paranthesis" />
+      <item index="4" class="java.lang.String" itemvalue="Python.reverseString" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.cycle" />
-        <item index="1" class="java.lang.String" itemvalue="Python.reverseList2" />
-        <item index="2" class="java.lang.String" itemvalue="Python.insertionSort" />
-        <item index="3" class="java.lang.String" itemvalue="Python.swapPairs" />
-        <item index="4" class="java.lang.String" itemvalue="Python.mergeLists" />
+        <item index="0" class="java.lang.String" itemvalue="Python.reverseString" />
+        <item index="1" class="java.lang.String" itemvalue="Python.paranthesis" />
+        <item index="2" class="java.lang.String" itemvalue="Python.cycle" />
+        <item index="3" class="java.lang.String" itemvalue="Python.reverseList2" />
+        <item index="4" class="java.lang.String" itemvalue="Python.insertionSort" />
       </list>
     </recent_temporary>
   </component>
@@ -358,7 +349,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1389" height="877" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -606,10 +597,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/paranthesis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20186916">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cycle.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.69719625">
-          <caret line="38" column="17" selection-start-line="37" selection-start-column="7" selection-end-line="38" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.9084112">
+          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reverseString.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47102803">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
