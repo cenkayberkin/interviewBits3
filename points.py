@@ -8,16 +8,42 @@ class Point:
 def maxPoints(points):
     if len(points) == 1:
         return 1
+
+    dupDict = {}
+    newPoints = []
+
+    for i in points:
+        iStr = str(i.x) + " " + str(i.y)
+        if iStr not in dupDict:
+            dupDict[iStr] = 0
+            newPoints.append(i)
+        else:
+            dupDict[iStr] += 1
+
+    if len(newPoints) == 1:
+        iStr = str(newPoints[0].x) + " " + str(newPoints[0].y)
+        return dupDict[iStr] + 1
+
     functions = {}
-    for i in range(len(points)):
-        for k in range(i+1,len(points)):
-            func = findFunc(points[i],points[k])
+    for i in range(len(newPoints)):
+        for k in range(i+1,len(newPoints)):
+            func = findFunc(newPoints[i],newPoints[k])
             key = str(func) + str(i)
             if key not in functions:
-               functions[key] = 2
+                functions[key] = 2
 
+                iStr = str(newPoints[i].x) + " " + str(newPoints[i].y)
+                if iStr in dupDict:
+                    functions[key] += dupDict[iStr]
+
+                kStr = str(newPoints[k].x) + " " + str(newPoints[k].y)
+                if kStr in dupDict:
+                    functions[key] += dupDict[kStr]
             else:
                 functions[key] += 1
+                kStr = str(newPoints[k].x) + " " + str(newPoints[k].y)
+                if kStr in dupDict:
+                    functions[key] += dupDict[kStr]
 
     max = 0
     for i in functions.values():
@@ -48,15 +74,18 @@ def findFunc(p1,p2):
     b = p1.y - (a * p1.x)
     return a,b
 
-p1 = Point(0,0)
-p2 = Point(-1,-1)
-p3 = Point(2,2)
-p4 = Point(0,0)
-p5 = Point(0,5)
-p6 = Point(1,9)
-p7 = Point(1,10)
-p8 = Point(1,12)
-points = [p1,p2,p3]
+p1 = Point(84,250)
+p2 = Point(0,0)
+p3 = Point(1,0)
+p4 = Point(0,-70)
+p5 = Point(0,-70)
+p6 = Point(1,-1)
+p7 = Point(21,10)
+p8 = Point(42,90)
+p9 = Point(-42,-230)
+
+points = [p1,p2,p3,p4,p5,p6,p7,p8,p9]
+# [[84,250],[0,0],[1,0],[0,-70],[0,-70],[1,-1],[21,10],[42,90],[-42,-230]]
 # [[0,0],[1,1],[1,-1]]
 # [[0,0],[-1,-1],[2,2]]
 # print findFunc(p1,p2)
